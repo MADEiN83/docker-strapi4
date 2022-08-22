@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  front:
+    image: registry.gitlab.com/madein83/docker-registry/strapi:latest
+    build: ./
+    # platform: linux/amd64
+    # environment:
+    #   - DOCKER_DEFAULT_PLATFORM=linux/amd64
